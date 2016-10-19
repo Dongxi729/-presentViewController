@@ -13,6 +13,12 @@
 		26C0BFA41DB66D5A00650B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C0BFA21DB66D5A00650B45 /* Main.storyboard */; };
 		26C0BFA61DB66D5A00650B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C0BFA51DB66D5A00650B45 /* Assets.xcassets */; };
 		26C0BFA91DB66D5A00650B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C0BFA71DB66D5A00650B45 /* LaunchScreen.storyboard */; };
+		26C0BFB31DB66EF400650B45 /* KGModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C0BFB11DB66D9300650B45 /* KGModal.m */; };
+		26C0BFB61DB670FA00650B45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C0BFB51DB670FA00650B45 /* CoreGraphics.framework */; };
+		26C0BFB81DB6710800650B45 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C0BFB71DB6710800650B45 /* QuartzCore.framework */; };
+		26C0BFBB1DB6726D00650B45 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C0BFBA1DB6726D00650B45 /* RedView.m */; };
+		26C0BFC11DB676F400650B45 /* ViewController77.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C0BFBF1DB676F400650B45 /* ViewController77.m */; };
+		26C0BFC21DB676F400650B45 /* ViewController77.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26C0BFC01DB676F400650B45 /* ViewController77.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,15 @@
 		26C0BFA51DB66D5A00650B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26C0BFA81DB66D5A00650B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26C0BFAA1DB66D5A00650B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C0BFB01DB66D9300650B45 /* KGModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGModal.h; sourceTree = "<group>"; };
+		26C0BFB11DB66D9300650B45 /* KGModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGModal.m; sourceTree = "<group>"; };
+		26C0BFB51DB670FA00650B45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26C0BFB71DB6710800650B45 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		26C0BFB91DB6726D00650B45 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		26C0BFBA1DB6726D00650B45 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		26C0BFBE1DB676F400650B45 /* ViewController77.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController77.h; sourceTree = "<group>"; };
+		26C0BFBF1DB676F400650B45 /* ViewController77.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController77.m; sourceTree = "<group>"; };
+		26C0BFC01DB676F400650B45 /* ViewController77.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController77.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C0BFB81DB6710800650B45 /* QuartzCore.framework in Frameworks */,
+				26C0BFB61DB670FA00650B45 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,7 @@
 			children = (
 				26C0BF981DB66D5A00650B45 /* jhjjjj */,
 				26C0BF971DB66D5A00650B45 /* Products */,
+				26C0BFB41DB670FA00650B45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +76,8 @@
 		26C0BF981DB66D5A00650B45 /* jhjjjj */ = {
 			isa = PBXGroup;
 			children = (
+				26C0BFB01DB66D9300650B45 /* KGModal.h */,
+				26C0BFB11DB66D9300650B45 /* KGModal.m */,
 				26C0BF9C1DB66D5A00650B45 /* AppDelegate.h */,
 				26C0BF9D1DB66D5A00650B45 /* AppDelegate.m */,
 				26C0BF9F1DB66D5A00650B45 /* ViewController.h */,
@@ -67,6 +87,11 @@
 				26C0BFA71DB66D5A00650B45 /* LaunchScreen.storyboard */,
 				26C0BFAA1DB66D5A00650B45 /* Info.plist */,
 				26C0BF991DB66D5A00650B45 /* Supporting Files */,
+				26C0BFB91DB6726D00650B45 /* RedView.h */,
+				26C0BFBA1DB6726D00650B45 /* RedView.m */,
+				26C0BFBE1DB676F400650B45 /* ViewController77.h */,
+				26C0BFBF1DB676F400650B45 /* ViewController77.m */,
+				26C0BFC01DB676F400650B45 /* ViewController77.xib */,
 			);
 			path = jhjjjj;
 			sourceTree = "<group>";
@@ -77,6 +102,15 @@
 				26C0BF9A1DB66D5A00650B45 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26C0BFB41DB670FA00650B45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26C0BFB71DB6710800650B45 /* QuartzCore.framework */,
+				26C0BFB51DB670FA00650B45 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +174,7 @@
 			files = (
 				26C0BFA91DB66D5A00650B45 /* LaunchScreen.storyboard in Resources */,
 				26C0BFA61DB66D5A00650B45 /* Assets.xcassets in Resources */,
+				26C0BFC21DB676F400650B45 /* ViewController77.xib in Resources */,
 				26C0BFA41DB66D5A00650B45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C0BFB31DB66EF400650B45 /* KGModal.m in Sources */,
 				26C0BFA11DB66D5A00650B45 /* ViewController.m in Sources */,
+				26C0BFC11DB676F400650B45 /* ViewController77.m in Sources */,
 				26C0BF9E1DB66D5A00650B45 /* AppDelegate.m in Sources */,
+				26C0BFBB1DB6726D00650B45 /* RedView.m in Sources */,
 				26C0BF9B1DB66D5A00650B45 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +348,7 @@
 				26C0BFAF1DB66D5A00650B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
